@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <!-- Modern Geometric Monogram DOSH -->
+  <rect width="120" height="120" rx="28" fill="#09090B"/>
+  <rect x="2" y="2" width="116" height="116" rx="26" stroke="#DC2626" stroke-width="2.5" stroke-opacity="0.8"/>
+  <path d="M26 34 H50 C62 34 70 42 70 54 C70 66 62 74 50 74 H26 V34 Z" fill="none" stroke="#FFFFFF" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M40 34 V74" stroke="#DC2626" stroke-width="5" stroke-linecap="round"/>
+  <path d="M56 46 H88 C94 46 98 50 98 56 C98 62 94 66 88 66 H72 C66 66 62 70 62 76 C62 82 66 86 72 86 H98" fill="none" stroke="#EF4444" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="98" cy="34" r="5" fill="#DC2626"/>
+  <circle cx="26" cy="86" r="4" fill="#FFFFFF"/>
+</svg>
