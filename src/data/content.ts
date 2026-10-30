@@ -59,7 +59,7 @@ export const siteConfig: SiteConfig = {
     // Embed Google Maps for Kinshasa
     mapIframeUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254600.9996637841!2d15.17871305952528!3d-4.401344440078866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a313094ae3b95%3A0x6b7724a7ff95627!2sKinshasa%2C%20R%C3%A9publique%20d%C3%A9mocratique%20du%20Congo!5e0!3m2!1sfr!2scd!4v1700000000000!5m2!1sfr!2scd",
   },
-  cvUrl: "https://4ydwi7yoayrluee7.public.blob.vercel-storage.com/donat%20project/IMG_6254.PNG",
+  cvUrl: "https://drive.google.com/file/d/10zF89pBfzHpv_vtWSsLOw-_4bsTNUVnf/view?usp=drivesdk",
   heroPhoto: "https://4ydwi7yoayrluee7.public.blob.vercel-storage.com/donat%20project/IMG_8273.PNG",
   aboutPhoto: "https://4ydwi7yoayrluee7.public.blob.vercel-storage.com/donat%20project/IMG_0604.JPG",
   aboutCarouselPhotos: [

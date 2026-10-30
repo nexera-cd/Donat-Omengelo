@@ -129,8 +129,9 @@ export function Navbar() {
 
           {/* Download CV Button */}
           <a
-            href="/cv.pdf"
-            download="CV-Donat-Omengelo.pdf"
+            href={siteConfig.cvUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-[#DC2626] hover:bg-[#B91C1C] text-white shadow-xs hover:shadow-md transition-all duration-200 transform hover:-translate-y-0.5"
             aria-label={content.nav.downloadCv}
           >
@@ -212,8 +213,9 @@ export function Navbar() {
 
             {/* Mobile CV Button */}
             <a
-              href="/cv.pdf"
-              download="CV-Donat-Omengelo.pdf"
+              href={siteConfig.cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
               className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-lg text-xs font-bold uppercase tracking-wider bg-[#DC2626] text-white text-center shadow-xs"
             >

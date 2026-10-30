@@ -71,8 +71,9 @@ export function Hero() {
               </a>
 
               <a
-                href="/cv.pdf"
-                download="CV-Donat-Omengelo.pdf"
+                href={siteConfig.cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-bold uppercase tracking-wider bg-white dark:bg-[#18181F] hover:bg-[#F4F4F5] dark:hover:bg-[#27272A] text-[#09090B] dark:text-white border border-[#E4E4E7] dark:border-[#27272A] shadow-xs hover:border-[#DC2626] dark:hover:border-[#EF4444] transition-all"
               >
                 <FileDown className="w-4 h-4 text-[#DC2626]" />

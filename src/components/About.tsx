@@ -134,8 +134,9 @@ export function About() {
             {/* Download CV CTA */}
             <div className="pt-2">
               <a
-                href="/cv.pdf"
-                download="CV-Donat-Omengelo.pdf"
+                href={siteConfig.cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl text-sm font-bold uppercase tracking-wider bg-[#09090B] dark:bg-white text-white dark:text-[#09090B] hover:bg-[#DC2626] dark:hover:bg-[#EF4444] dark:hover:text-white transition-all duration-200 shadow-sm"
               >
                 <FileDown className="w-4 h-4 text-[#DC2626] group-hover:text-white" />
